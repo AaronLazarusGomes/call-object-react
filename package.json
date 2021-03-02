@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "PORT=3002 react-scripts start",
     "build": "react-scripts build",
-    "netlify-build": "sed -i s/DAILY_API_KEY_PLACEHOLDER/${DAILY_API_KEY}/g netlify.toml && npm run build",
+    "netlify-build": "sed -i s/a3dbb36cd68387728d04115ecc1aa6682b59e66d4155b2aedb09a59c009415f9/${DAILY_API_KEY}/g netlify.toml && npm run build",
     "start": "PORT=3002 serve build",
     "eject": "react-scripts eject"
   },
